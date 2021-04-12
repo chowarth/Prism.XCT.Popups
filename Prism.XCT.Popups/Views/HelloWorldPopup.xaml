@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popups:PrismPopup
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:popups="clr-namespace:Prism.XCT.Popups"
+    x:Class="Prism.XCT.Popups.Views.HelloWorldPopup"
+    Size="300, 300"
+    BackgroundColor="Indigo">
+    
+    <StackLayout
+        BackgroundColor="IndianRed"
+        Margin="25, 0, 25, 25">
+        <Label
+            Text="Welcome to Prism.XCT.Popups!"
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand" />
+        <Button
+            Text="Dismiss"
+            Command="{Binding DismissCommand}"/>
+    </StackLayout>
+
+</popups:PrismPopup>
