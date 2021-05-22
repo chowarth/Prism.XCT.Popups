@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XCT.Popups.Prism.Sample
+namespace XCT.Popups.Prism
 {
     /// <summary>
     /// Defines a contract for displaying Xamarin.Community.Toolkit popups from ViewModels.
@@ -16,7 +16,7 @@ namespace XCT.Popups.Prism.Sample
         /// <example>
         /// This example shows how to display a popup with two parameters.
         /// <code>
-        /// var parameters = new NavigationParametersParameters
+        /// var parameters = new PopupParameters
         /// {
         ///     { "title", "Connection Lost!" },
         ///     { "message", "We seem to have lost network connectivity" }

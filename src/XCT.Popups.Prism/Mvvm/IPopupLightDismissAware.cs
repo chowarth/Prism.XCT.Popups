@@ -1,5 +1,5 @@
 ﻿
-namespace XCT.Popups.Prism.Sample
+namespace XCT.Popups.Prism
 {
     public interface IPopupLightDismissAware
     {

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.1.0" />
+    <PackageReference Include="Prism.Forms" Version="8.0.0.1909" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mvvm\" />
+    <Folder Include="Popups\" />
+  </ItemGroup>
+</Project>

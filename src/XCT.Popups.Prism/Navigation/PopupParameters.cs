@@ -1,6 +1,6 @@
 ﻿using Prism.Common;
 
-namespace XCT.Popups.Prism.Sample
+namespace XCT.Popups.Prism
 {
     public class PopupParameters : ParametersBase, IPopupParameters
     {

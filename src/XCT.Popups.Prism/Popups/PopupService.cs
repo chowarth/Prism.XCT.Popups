@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Xamarin.CommunityToolkit.Extensions;
 using Xamarin.CommunityToolkit.UI.Views;
 
-namespace XCT.Popups.Prism.Sample
+namespace XCT.Popups.Prism
 {
     /// <summary>
     /// Provides the ability to display Xamarin.Community.Toolkit popups from ViewModels.

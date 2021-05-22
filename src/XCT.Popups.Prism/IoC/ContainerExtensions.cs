@@ -2,9 +2,9 @@
 using Prism.Mvvm;
 using Xamarin.CommunityToolkit.UI.Views;
 
-namespace Prism.XCT.IoC
+namespace XCT.Popups.Prism
 {
-    static class ContainerPopupExtensions
+    static class ContainerExtensions
     {
         public static IContainerRegistry RegisterPopup<TView>(this IContainerRegistry containerRegistry, string name = null)
             where TView : Popup

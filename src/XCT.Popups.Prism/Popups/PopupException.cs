@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace XCT.Popups.Prism.Sample
+namespace XCT.Popups.Prism
 {
     public class PopupException : Exception
     {
