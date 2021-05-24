@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<Version>0.0.0</Version>
+	<PackageTags>xamarin;xamarin.forms;xamarin.community.toolkit;prism;popups</PackageTags>
+	<RepositoryUrl>https://github.com/chowarth/Prism.XCT.Popups</RepositoryUrl>
+	<RepositoryType>Git</RepositoryType>
+	<PackageProjectUrl>https://github.com/chowarth/Prism.XCT.Popups</PackageProjectUrl>
+	<Authors>Chris Howarth</Authors>
+	<Description>Unofficial package that allows the use of Xamarin.Community.Toolkit popups within a Prism based Xamarin.Forms project</Description>
+	<Copyright>Copyright (c) Chris Howarth 2021</Copyright>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -21,5 +30,11 @@
   <ItemGroup>
     <Folder Include="Mvvm\" />
     <Folder Include="Popups\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
