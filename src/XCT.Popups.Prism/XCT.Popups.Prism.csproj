@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Version>0.0.0</Version>
+		<PackageTags>xamarin;xamarin.forms;xamarin.community.toolkit;prism;popups</PackageTags>
+		<RepositoryUrl>https://github.com/chowarth/Prism.XCT.Popups</RepositoryUrl>
+		<RepositoryType>Git</RepositoryType>
+		<PackageProjectUrl>https://github.com/chowarth/Prism.XCT.Popups</PackageProjectUrl>
+		<Authors>Chris Howarth</Authors>
+		<Description>Unofficial package that allows the use of Xamarin.Community.Toolkit popups within a Prism based Xamarin.Forms project</Description>
+		<Copyright>Copyright (c) Chris Howarth 2021</Copyright>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
+		<MinVerDefaultPreReleasePhase>pre</MinVerDefaultPreReleasePhase>
+		<MinVerTagPrefix>v</MinVerTagPrefix>
+		<MinVerVerbosity>detailed</MinVerVerbosity>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="MinVer" Version="2.5.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Xamarin.CommunityToolkit" Version="1.1.0" />
+		<PackageReference Include="Prism.Forms" Version="8.0.0.1909" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Mvvm\" />
+		<Folder Include="Popups\" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath=""/>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
+	</ItemGroup>
+</Project>
