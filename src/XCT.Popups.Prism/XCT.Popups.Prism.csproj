@@ -43,7 +43,7 @@
 		<Folder Include="Popups\" />
 	</ItemGroup>
 	<ItemGroup>
-		<None Include="README" Pack="true" PackagePath=""/>
-		<None Include="LICENSE" Pack="true" PackagePath=""/>
+		<None Include="..\..\README.md" Pack="true" PackagePath=""/>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
 	</ItemGroup>
 </Project>
