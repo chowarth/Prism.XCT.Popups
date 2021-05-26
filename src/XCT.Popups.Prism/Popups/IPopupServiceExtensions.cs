@@ -6,7 +6,7 @@ namespace XCT.Popups.Prism
     public static class IPopupServiceExtensions
     {
         /// <summary>
-        /// Displays a Xamarin.Community.Toolkit popup.
+        /// Displays a Xamarin.Community.Toolkit popup asynchronously.
         /// </summary>
         /// <param name="popupService">The popup service.</param>
         /// <param name="name">The unique name of the popup to display. Must match an entry in the <see cref="IContainerRegistry"/>.</param>
