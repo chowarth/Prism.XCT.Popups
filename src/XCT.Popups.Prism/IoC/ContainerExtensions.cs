@@ -4,7 +4,7 @@ using Xamarin.CommunityToolkit.UI.Views;
 
 namespace XCT.Popups.Prism
 {
-    static class ContainerExtensions
+    public static class ContainerExtensions
     {
         public static IContainerRegistry RegisterPopup<TView>(this IContainerRegistry containerRegistry, string name = null)
             where TView : Popup

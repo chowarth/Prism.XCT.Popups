@@ -1,6 +1,5 @@
 ﻿using Prism.Common;
 using Prism.Ioc;
-using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using Xamarin.CommunityToolkit.Extensions;
@@ -11,7 +10,7 @@ namespace XCT.Popups.Prism
     /// <summary>
     /// Provides the ability to display Xamarin.Community.Toolkit popups from ViewModels.
     /// </summary>
-    internal class PopupService : IPopupService
+    public class PopupService : IPopupService
     {
         private readonly IApplicationProvider _applicationProvider;
         private readonly IContainerProvider _containerProvider;
