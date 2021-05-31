@@ -1,5 +1,4 @@
 using Prism.Ioc;
-using Prism.XCT.IoC;
 using XCT.Popups.Prism.Sample.ViewModels;
 using XCT.Popups.Prism.Sample.Views;
 using Xamarin.Essentials.Implementation;
